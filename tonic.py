@@ -16,6 +16,7 @@ class FinanceBuddy:
             print("No expenses recorded yet.")
             return
 
+
         print("\n--- Expenses ---")
         filtered_expenses = self.expenses
         if category:
